@@ -1,0 +1,270 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    max-width: auto;
+}
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+}
+/* HEADER */
+header {
+  display: flex;
+  height: 68px;
+  align-items: center;
+}
+
+header img{
+    width: 79px;
+    height: 24px;
+    margin-left: 97px;
+}
+header img:hover{
+    cursor: pointer;
+}
+
+header .menu{
+    margin: 0 auto;
+}
+
+header a{
+    margin-right: 31px;
+    margin-left: 31px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #6F2DFF;
+}
+
+.btn{
+    color: #fff;
+    background-color: #6F2CFF;
+    border-radius: 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 13px 34px;
+    margin-right: 95px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #6222eb;
+}
+/*  END HEADER */
+
+/* SECTION_1*/
+.section_1 .container{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 97px;
+}
+.text p{
+    width: 438px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.section_1{
+    background-color: #F6BED9;
+}
+.image-background {
+    display: flex;
+    justify-content: end;
+    background-color: #F6BED9;
+}
+
+.image-background img{
+    width: 436px;
+    height: 570px;
+    margin: 59px 95px;
+} 
+
+.section_1 h2{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    margin: 0;
+    color: #000;
+}
+.section_1 .active{
+    color: #6F2DFF;
+}
+.input-btn input{
+    padding: 12px 0;
+    padding-left: 26px;
+    border: 1px solid #6F2DFF;
+    border-radius: 28px;
+    margin-right: 9px;
+}
+/* END SECTION */
+
+/* SECTION_2*/
+.container_2{
+    display: flex;
+    width: 1250px;
+    height: 438px;
+    margin: 0 auto;
+    margin-top: 136px;
+    justify-content: space-between;
+}
+.container_2 h3{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.sectionRiver{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+.river{
+    width: 334px;
+    text-align: center;
+    margin: 0;
+}
+.river img{
+    height: 205px;
+    width: 334px;
+    margin: 0;
+}
+.river div{
+    height: 227px;
+    border-radius: 0px 0px 7px 7px;
+    background: #FFFFFF;
+    /* box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5); */
+    box-shadow: 0px 8px 14px rgba(173, 170, 170, 0.5);
+}
+.river h4{
+    padding-top: 35px;
+    padding-bottom: 28px;
+    font-size: 26px;
+    color: black;
+    margin: 0;
+}
+.river p{
+    width: 219px;
+    margin: 0 auto;
+    color: #6F2CFF;
+    font-size: 18px;
+}
+.river:hover{
+    cursor: pointer;
+    box-shadow: 0px 8px 14px rgba(173, 170, 170, 0.5);
+}
+/* END SECTION_2*/
+
+/* SECTION_3 */
+.section_3{
+    margin-top: 167px;
+
+    padding-bottom: 20px;
+}
+.qubit{
+    width: 1250px;
+    height: 349px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 3px 3px 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        margin-bottom: 134px;
+}
+.qubit h3{
+    padding-top: 31px;
+    padding-bottom: 66px;
+    margin: 0;
+}
+.qubitMenu{
+    display: flex;
+    /* flex-direction: flex-end; */
+    justify-content: space-between;
+    text-align: center;
+    align-items:flex-end;
+}
+.qubitMenu .menu{
+    width: 314px;
+
+}
+.qubitMenu img{
+    width: 50px;
+    height: 50px;
+}
+.qubitMenu h5{
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.qubitMenu p{
+    font-size: 15px;
+    line-height: 22px;
+
+}
+
+.qubitMenu .menu:hover{
+    box-shadow: 0px 8px 14px rgba(173, 170, 170, 0.5);
+    cursor: pointer;
+}
+/* END SECTION_3 */
+
+/* FOOTER */
+.footer{
+    background-color: #20003C;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+.footer .btn{
+    margin-left: 508px;
+    margin-right: 0;
+}
+.footer .container{
+    display: flex;
+    padding: 0 134px
+}
+.footer span{
+    color: #fff;
+    margin-right: 70px;
+    font-size: 14px;
+}
+.footer span:hover{
+    cursor: pointer;
+    color: #b1a1d4;
+}
+.footer .linkFooter{
+    display: flex;
+    align-items: center;
+}
+/* .footer .container{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+}
+.linkFooter{
+    
+}
+.linkFooter a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+} */
+/* END FOOTER */
+
+@media(max-width: )
